@@ -173,5 +173,5 @@ footer a:hover { color:white; }
 .pub-type.award { color:var(--amber); }
 @media (max-width:760px) { .hero { height:auto; min-height:175px; } .hero .content-width { padding-top:28px; padding-bottom:30px; } } /* longer tagline: let the hero grow instead of clipping */
 @media (max-width:430px) { .hero h1 { font-size:26px; } }
-.profile-mark.photo { padding:0; background:white; } /* a real photo fills the frame; the dark mat is for the graphic avatar */
+.profile-mark.photo { height:auto; aspect-ratio:3/4; padding:0; background:white; } /* portrait photo, head and shoulders; the dark mat is for the graphic avatar */
 .profile-mark.photo img { object-fit:cover; background:white; }
