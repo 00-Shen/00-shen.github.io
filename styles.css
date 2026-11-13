@@ -173,6 +173,12 @@ footer a:hover { color:white; }
 .pub-type.award { color:var(--amber); }
 .paper-link.is-pending { color:var(--muted); cursor:default; } /* paper not online yet (USER 11-11) */
 .paper-link.is-pending:hover { text-decoration:none; }
+.skills { max-width:760px; margin-top:44px; } /* Technical Skills under Experience (USER 11-13) */
+.skill-list { margin:0; }
+.skill-list div { display:grid; grid-template-columns:185px 1fr; gap:30px; padding:13px 0; border-bottom:1px solid var(--line); }
+.skill-list dt { color:var(--ink); font-size:14px; font-weight:700; }
+.skill-list dd { margin:0; font-size:14px; line-height:1.55; }
+@media (max-width:760px) { .skill-list div { grid-template-columns:1fr; gap:4px; } }
 @media (max-width:760px) { .hero { height:auto; min-height:175px; } .hero .content-width { padding-top:28px; padding-bottom:30px; } } /* longer tagline: let the hero grow instead of clipping */
 @media (max-width:430px) { .hero h1 { font-size:26px; } }
 .profile-mark.photo { height:auto; aspect-ratio:3/4; padding:0; background:white; } /* portrait photo, head and shoulders; the dark mat is for the graphic avatar */
